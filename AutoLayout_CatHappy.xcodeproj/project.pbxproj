@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9DAEF461DB857B400619A17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DAEF451DB857B400619A17 /* main.m */; };
+		E9DAEF491DB857B400619A17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DAEF481DB857B400619A17 /* AppDelegate.m */; };
+		E9DAEF4C1DB857B400619A17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DAEF4B1DB857B400619A17 /* ViewController.m */; };
+		E9DAEF4F1DB857B400619A17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9DAEF4D1DB857B400619A17 /* Main.storyboard */; };
+		E9DAEF511DB857B400619A17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9DAEF501DB857B400619A17 /* Assets.xcassets */; };
+		E9DAEF541DB857B400619A17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9DAEF521DB857B400619A17 /* LaunchScreen.storyboard */; };
+		E9DAEF5F1DB857B400619A17 /* AutoLayout_CatHappyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DAEF5E1DB857B400619A17 /* AutoLayout_CatHappyTests.m */; };
+		E9DAEF6A1DB857B400619A17 /* AutoLayout_CatHappyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DAEF691DB857B400619A17 /* AutoLayout_CatHappyUITests.m */; };
+		E9DAEF781DB8582200619A17 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9DAEF771DB8582200619A17 /* cat.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9DAEF5B1DB857B400619A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9DAEF391DB857B400619A17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9DAEF401DB857B400619A17;
+			remoteInfo = AutoLayout_CatHappy;
+		};
+		E9DAEF661DB857B400619A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9DAEF391DB857B400619A17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9DAEF401DB857B400619A17;
+			remoteInfo = AutoLayout_CatHappy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9DAEF411DB857B400619A17 /* AutoLayout_CatHappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout_CatHappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DAEF451DB857B400619A17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9DAEF471DB857B400619A17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9DAEF481DB857B400619A17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9DAEF4A1DB857B400619A17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E9DAEF4B1DB857B400619A17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E9DAEF4E1DB857B400619A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9DAEF501DB857B400619A17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9DAEF531DB857B400619A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9DAEF551DB857B400619A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9DAEF5A1DB857B400619A17 /* AutoLayout_CatHappyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayout_CatHappyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DAEF5E1DB857B400619A17 /* AutoLayout_CatHappyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayout_CatHappyTests.m; sourceTree = "<group>"; };
+		E9DAEF601DB857B400619A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9DAEF651DB857B400619A17 /* AutoLayout_CatHappyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayout_CatHappyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DAEF691DB857B400619A17 /* AutoLayout_CatHappyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayout_CatHappyUITests.m; sourceTree = "<group>"; };
+		E9DAEF6B1DB857B400619A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9DAEF771DB8582200619A17 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9DAEF3E1DB857B400619A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DAEF571DB857B400619A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DAEF621DB857B400619A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9DAEF381DB857B400619A17 = {
+			isa = PBXGroup;
+			children = (
+				E9DAEF4D1DB857B400619A17 /* Main.storyboard */,
+				E9DAEF431DB857B400619A17 /* AutoLayout_CatHappy */,
+				E9DAEF5D1DB857B400619A17 /* AutoLayout_CatHappyTests */,
+				E9DAEF681DB857B400619A17 /* AutoLayout_CatHappyUITests */,
+				E9DAEF421DB857B400619A17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9DAEF421DB857B400619A17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9DAEF411DB857B400619A17 /* AutoLayout_CatHappy.app */,
+				E9DAEF5A1DB857B400619A17 /* AutoLayout_CatHappyTests.xctest */,
+				E9DAEF651DB857B400619A17 /* AutoLayout_CatHappyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9DAEF431DB857B400619A17 /* AutoLayout_CatHappy */ = {
+			isa = PBXGroup;
+			children = (
+				E9DAEF471DB857B400619A17 /* AppDelegate.h */,
+				E9DAEF481DB857B400619A17 /* AppDelegate.m */,
+				E9DAEF4A1DB857B400619A17 /* ViewController.h */,
+				E9DAEF4B1DB857B400619A17 /* ViewController.m */,
+				E9DAEF771DB8582200619A17 /* cat.jpg */,
+				E9DAEF501DB857B400619A17 /* Assets.xcassets */,
+				E9DAEF521DB857B400619A17 /* LaunchScreen.storyboard */,
+				E9DAEF551DB857B400619A17 /* Info.plist */,
+				E9DAEF441DB857B400619A17 /* Supporting Files */,
+			);
+			path = AutoLayout_CatHappy;
+			sourceTree = "<group>";
+		};
+		E9DAEF441DB857B400619A17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9DAEF451DB857B400619A17 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9DAEF5D1DB857B400619A17 /* AutoLayout_CatHappyTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9DAEF5E1DB857B400619A17 /* AutoLayout_CatHappyTests.m */,
+				E9DAEF601DB857B400619A17 /* Info.plist */,
+			);
+			path = AutoLayout_CatHappyTests;
+			sourceTree = "<group>";
+		};
+		E9DAEF681DB857B400619A17 /* AutoLayout_CatHappyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9DAEF691DB857B400619A17 /* AutoLayout_CatHappyUITests.m */,
+				E9DAEF6B1DB857B400619A17 /* Info.plist */,
+			);
+			path = AutoLayout_CatHappyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9DAEF401DB857B400619A17 /* AutoLayout_CatHappy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9DAEF6E1DB857B400619A17 /* Build configuration list for PBXNativeTarget "AutoLayout_CatHappy" */;
+			buildPhases = (
+				E9DAEF3D1DB857B400619A17 /* Sources */,
+				E9DAEF3E1DB857B400619A17 /* Frameworks */,
+				E9DAEF3F1DB857B400619A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoLayout_CatHappy;
+			productName = AutoLayout_CatHappy;
+			productReference = E9DAEF411DB857B400619A17 /* AutoLayout_CatHappy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9DAEF591DB857B400619A17 /* AutoLayout_CatHappyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9DAEF711DB857B400619A17 /* Build configuration list for PBXNativeTarget "AutoLayout_CatHappyTests" */;
+			buildPhases = (
+				E9DAEF561DB857B400619A17 /* Sources */,
+				E9DAEF571DB857B400619A17 /* Frameworks */,
+				E9DAEF581DB857B400619A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9DAEF5C1DB857B400619A17 /* PBXTargetDependency */,
+			);
+			name = AutoLayout_CatHappyTests;
+			productName = AutoLayout_CatHappyTests;
+			productReference = E9DAEF5A1DB857B400619A17 /* AutoLayout_CatHappyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9DAEF641DB857B400619A17 /* AutoLayout_CatHappyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9DAEF741DB857B400619A17 /* Build configuration list for PBXNativeTarget "AutoLayout_CatHappyUITests" */;
+			buildPhases = (
+				E9DAEF611DB857B400619A17 /* Sources */,
+				E9DAEF621DB857B400619A17 /* Frameworks */,
+				E9DAEF631DB857B400619A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9DAEF671DB857B400619A17 /* PBXTargetDependency */,
+			);
+			name = AutoLayout_CatHappyUITests;
+			productName = AutoLayout_CatHappyUITests;
+			productReference = E9DAEF651DB857B400619A17 /* AutoLayout_CatHappyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9DAEF391DB857B400619A17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = colbyg;
+				TargetAttributes = {
+					E9DAEF401DB857B400619A17 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					E9DAEF591DB857B400619A17 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E9DAEF401DB857B400619A17;
+					};
+					E9DAEF641DB857B400619A17 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E9DAEF401DB857B400619A17;
+					};
+				};
+			};
+			buildConfigurationList = E9DAEF3C1DB857B400619A17 /* Build configuration list for PBXProject "AutoLayout_CatHappy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9DAEF381DB857B400619A17;
+			productRefGroup = E9DAEF421DB857B400619A17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9DAEF401DB857B400619A17 /* AutoLayout_CatHappy */,
+				E9DAEF591DB857B400619A17 /* AutoLayout_CatHappyTests */,
+				E9DAEF641DB857B400619A17 /* AutoLayout_CatHappyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9DAEF3F1DB857B400619A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DAEF541DB857B400619A17 /* LaunchScreen.storyboard in Resources */,
+				E9DAEF511DB857B400619A17 /* Assets.xcassets in Resources */,
+				E9DAEF781DB8582200619A17 /* cat.jpg in Resources */,
+				E9DAEF4F1DB857B400619A17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DAEF581DB857B400619A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DAEF631DB857B400619A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9DAEF3D1DB857B400619A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DAEF4C1DB857B400619A17 /* ViewController.m in Sources */,
+				E9DAEF491DB857B400619A17 /* AppDelegate.m in Sources */,
+				E9DAEF461DB857B400619A17 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DAEF561DB857B400619A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DAEF5F1DB857B400619A17 /* AutoLayout_CatHappyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DAEF611DB857B400619A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DAEF6A1DB857B400619A17 /* AutoLayout_CatHappyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9DAEF5C1DB857B400619A17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9DAEF401DB857B400619A17 /* AutoLayout_CatHappy */;
+			targetProxy = E9DAEF5B1DB857B400619A17 /* PBXContainerItemProxy */;
+		};
+		E9DAEF671DB857B400619A17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9DAEF401DB857B400619A17 /* AutoLayout_CatHappy */;
+			targetProxy = E9DAEF661DB857B400619A17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9DAEF4D1DB857B400619A17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9DAEF4E1DB857B400619A17 /* Base */,
+			);
+			name = Main.storyboard;
+			path = AutoLayout_CatHappy;
+			sourceTree = "<group>";
+		};
+		E9DAEF521DB857B400619A17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9DAEF531DB857B400619A17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9DAEF6C1DB857B400619A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9DAEF6D1DB857B400619A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9DAEF6F1DB857B400619A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoLayout_CatHappy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colbyg.AutoLayout-CatHappy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9DAEF701DB857B400619A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoLayout_CatHappy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colbyg.AutoLayout-CatHappy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E9DAEF721DB857B400619A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoLayout_CatHappyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colbyg.AutoLayout-CatHappyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoLayout_CatHappy.app/AutoLayout_CatHappy";
+			};
+			name = Debug;
+		};
+		E9DAEF731DB857B400619A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoLayout_CatHappyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colbyg.AutoLayout-CatHappyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoLayout_CatHappy.app/AutoLayout_CatHappy";
+			};
+			name = Release;
+		};
+		E9DAEF751DB857B400619A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AutoLayout_CatHappyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colbyg.AutoLayout-CatHappyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutoLayout_CatHappy;
+			};
+			name = Debug;
+		};
+		E9DAEF761DB857B400619A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AutoLayout_CatHappyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.colbyg.AutoLayout-CatHappyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutoLayout_CatHappy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9DAEF3C1DB857B400619A17 /* Build configuration list for PBXProject "AutoLayout_CatHappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DAEF6C1DB857B400619A17 /* Debug */,
+				E9DAEF6D1DB857B400619A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9DAEF6E1DB857B400619A17 /* Build configuration list for PBXNativeTarget "AutoLayout_CatHappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DAEF6F1DB857B400619A17 /* Debug */,
+				E9DAEF701DB857B400619A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9DAEF711DB857B400619A17 /* Build configuration list for PBXNativeTarget "AutoLayout_CatHappyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DAEF721DB857B400619A17 /* Debug */,
+				E9DAEF731DB857B400619A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9DAEF741DB857B400619A17 /* Build configuration list for PBXNativeTarget "AutoLayout_CatHappyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DAEF751DB857B400619A17 /* Debug */,
+				E9DAEF761DB857B400619A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9DAEF391DB857B400619A17 /* Project object */;
+}
