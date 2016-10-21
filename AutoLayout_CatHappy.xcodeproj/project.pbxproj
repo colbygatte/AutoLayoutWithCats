@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9AD28261DB94A980036B6F4 /* CenterMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AD28251DB94A980036B6F4 /* CenterMeViewController.m */; };
 		E9DAEF461DB857B400619A17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DAEF451DB857B400619A17 /* main.m */; };
 		E9DAEF491DB857B400619A17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DAEF481DB857B400619A17 /* AppDelegate.m */; };
 		E9DAEF4C1DB857B400619A17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DAEF4B1DB857B400619A17 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E9AD28241DB94A980036B6F4 /* CenterMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterMeViewController.h; sourceTree = "<group>"; };
+		E9AD28251DB94A980036B6F4 /* CenterMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterMeViewController.m; sourceTree = "<group>"; };
 		E9DAEF411DB857B400619A17 /* AutoLayout_CatHappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout_CatHappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9DAEF451DB857B400619A17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E9DAEF471DB857B400619A17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +111,8 @@
 				E9DAEF481DB857B400619A17 /* AppDelegate.m */,
 				E9DAEF4A1DB857B400619A17 /* ViewController.h */,
 				E9DAEF4B1DB857B400619A17 /* ViewController.m */,
+				E9AD28241DB94A980036B6F4 /* CenterMeViewController.h */,
+				E9AD28251DB94A980036B6F4 /* CenterMeViewController.m */,
 				E9DAEF771DB8582200619A17 /* cat.jpg */,
 				E9DAEF501DB857B400619A17 /* Assets.xcassets */,
 				E9DAEF521DB857B400619A17 /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9DAEF4C1DB857B400619A17 /* ViewController.m in Sources */,
+				E9AD28261DB94A980036B6F4 /* CenterMeViewController.m in Sources */,
 				E9DAEF491DB857B400619A17 /* AppDelegate.m in Sources */,
 				E9DAEF461DB857B400619A17 /* main.m in Sources */,
 			);
@@ -512,6 +518,7 @@
 				E9DAEF701DB857B400619A17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9DAEF711DB857B400619A17 /* Build configuration list for PBXNativeTarget "AutoLayout_CatHappyTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +527,7 @@
 				E9DAEF731DB857B400619A17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9DAEF741DB857B400619A17 /* Build configuration list for PBXNativeTarget "AutoLayout_CatHappyUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +536,7 @@
 				E9DAEF761DB857B400619A17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
